@@ -1,0 +1,78 @@
+# ============================
+# 📌 General Ignore
+# ============================
+.DS_Store
+*.log
+*.pem
+.env*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# 📌 Frontend (Next.js) Ignore
+# ============================
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+/coverage
+/.next/
+/out/
+/build/
+/.vercel
+*.tsbuildinfo
+next-env.d.ts
+
+# ============================
+# 📌 Backend (Python & FastAPI) Ignore
+# ============================
+/venv/
+__pycache__/
+/backend/__pycache__/
+/backend/db.sqlite3
+/backend/.pytest_cache/
+
+# ============================
+# 📌 Ignore Local Venv Activation (Mac/Linux)
+# ============================
+venv/bin/
+venv/lib/
+venv/include/
+
+# ============================
+# 📌 General Ignore
+# ============================
+.DS_Store
+*.log
+*.pem
+.env*
+.pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================
+# 📌 Frontend (Next.js) Ignore
+# ============================
+/frontend/node_modules
+/frontend/.pnp
+/frontend/.next
+/frontend/out
+/frontend/build
+/frontend/.vercel
+/frontend/coverage
+/frontend/*.tsbuildinfo
+/frontend/next-env.d.ts
+
+# ============================
+# 📌 Backend (Python & FastAPI) Ignore
+# ============================
+/backend/venv
+/backend/__pycache__
+/backend/db.sqlite3
+/backend/.pytest_cache/
+
